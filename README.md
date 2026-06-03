@@ -66,3 +66,5 @@ Test Coverage Includes:
 test_successful_extraction: Verifies that a mathematically sound invoice parses correctly and returns a "Green" status.
 
 test_math_fail_safe: Injects an invoice with an intentional math error to verify that the deterministic Python layer successfully catches the LLM hallucination and flags it as "Red".
+Disclaimer!
+You need to add a next.js for the frontend. Code needed has been attached.
